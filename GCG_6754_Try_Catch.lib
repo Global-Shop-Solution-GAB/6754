@@ -1,0 +1,14 @@
+﻿Program.Sub.Preflight.Start
+Program.Sub.Preflight.End
+
+Program.Sub.ErrorMessage.Start
+V.Local.sError.Declare
+F.Intrinsic.String.Build("Project: {0}{1}{1}Subroutine: {2}{1}Error Occurred {3} with description {4}{1}{1}GAB Version: {5}",V.Args.ScriptFile,V.Ambient.Newline,V.Args.CurrentSubroutine,V.Ambient.ErrorNumber,V.Ambient.ErrorDescription,V.Ambient.GABVersion,V.Local.sError)
+F.Intrinsic.UI.Msgbox(V.Local.sError)
+F.Intrinsic.Control.End
+Program.Sub.ErrorMessage.End
+
+Program.Sub.Comments.Start
+${$5$}$2.0.0.0$}$2
+${$6$}$sstanka$}$20220517122613251$}$mP+zz5Tw3sT2/nyap+FbWm4triMPqjXD/Yj6L9R8iz89b57sa3Y2BvaaxQZ8Hb0uWOwBwzKAJjI=
+Program.Sub.Comments.End
